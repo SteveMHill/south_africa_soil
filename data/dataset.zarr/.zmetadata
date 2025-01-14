@@ -1,0 +1,492 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "EVI/.zarray": {
+            "chunks": [
+                355,
+                400
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1419,
+                1598
+            ],
+            "zarr_format": 2
+        },
+        "EVI/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "coordinates": "time"
+        },
+        "GNDVI/.zarray": {
+            "chunks": [
+                355,
+                400
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1419,
+                1598
+            ],
+            "zarr_format": 2
+        },
+        "GNDVI/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "coordinates": "time"
+        },
+        "NDVI/.zarray": {
+            "chunks": [
+                355,
+                400
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1419,
+                1598
+            ],
+            "zarr_format": 2
+        },
+        "NDVI/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "coordinates": "time"
+        },
+        "SCL/.zarray": {
+            "chunks": [
+                355,
+                400
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1419,
+                1598
+            ],
+            "zarr_format": 2
+        },
+        "SCL/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "coordinates": "time"
+        },
+        "aspect/.zarray": {
+            "chunks": [
+                355,
+                400
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1419,
+                1598
+            ],
+            "zarr_format": 2
+        },
+        "aspect/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "coordinates": "time"
+        },
+        "blue/.zarray": {
+            "chunks": [
+                355,
+                400
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1419,
+                1598
+            ],
+            "zarr_format": 2
+        },
+        "blue/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "coordinates": "time"
+        },
+        "elev/.zarray": {
+            "chunks": [
+                355,
+                400
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1419,
+                1598
+            ],
+            "zarr_format": 2
+        },
+        "elev/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "coordinates": "time",
+            "grid_mapping": "spatial_ref"
+        },
+        "green/.zarray": {
+            "chunks": [
+                355,
+                400
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1419,
+                1598
+            ],
+            "zarr_format": 2
+        },
+        "green/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "coordinates": "time"
+        },
+        "hillshade/.zarray": {
+            "chunks": [
+                355,
+                400
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1419,
+                1598
+            ],
+            "zarr_format": 2
+        },
+        "hillshade/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "coordinates": "time"
+        },
+        "nir/.zarray": {
+            "chunks": [
+                355,
+                400
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1419,
+                1598
+            ],
+            "zarr_format": 2
+        },
+        "nir/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "coordinates": "time"
+        },
+        "red/.zarray": {
+            "chunks": [
+                355,
+                400
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1419,
+                1598
+            ],
+            "zarr_format": 2
+        },
+        "red/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "coordinates": "time"
+        },
+        "slope/.zarray": {
+            "chunks": [
+                355,
+                400
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1419,
+                1598
+            ],
+            "zarr_format": 2
+        },
+        "slope/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "coordinates": "time"
+        },
+        "spatial_ref/.zarray": {
+            "chunks": [],
+            "compressor": null,
+            "dtype": "<i4",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [],
+            "zarr_format": 2
+        },
+        "spatial_ref/.zattrs": {
+            "GeoTransform": "574000 1000 0 2169000 0 -1000",
+            "_ARRAY_DIMENSIONS": [],
+            "crs_wkt": "PROJCRS[\"Hartebeesthoek94 / ZAF BSU Albers 25E\",BASEGEOGCRS[\"Hartebeesthoek94\",DATUM[\"Hartebeesthoek94\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4148]],CONVERSION[\"South Africa Basic Survey Unit Albers 25E\",METHOD[\"Albers Equal Area\",ID[\"EPSG\",9822]],PARAMETER[\"Latitude of false origin\",-30,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8821]],PARAMETER[\"Longitude of false origin\",25,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8822]],PARAMETER[\"Latitude of 1st standard parallel\",-22,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8823]],PARAMETER[\"Latitude of 2nd standard parallel\",-38,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8824]],PARAMETER[\"Easting at false origin\",1400000,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8826]],PARAMETER[\"Northing at false origin\",1300000,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8827]]],CS[Cartesian,2],AXIS[\"northing (N)\",north,ORDER[1],LENGTHUNIT[\"metre\",1]],AXIS[\"easting (E)\",east,ORDER[2],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Spatial analysis for the purposes of Natural Capital Accounting.\"],AREA[\"South Africa - mainland - onshore and offshore.\"],BBOX[-38.17,13.33,-22.13,36.54]],ID[\"EPSG\",9221]]",
+            "false_easting": 1400000.0,
+            "false_northing": 1300000.0,
+            "geographic_crs_name": "Hartebeesthoek94",
+            "grid_mapping_name": "albers_conical_equal_area",
+            "horizontal_datum_name": "Hartebeesthoek94",
+            "inverse_flattening": 298.257223563,
+            "latitude_of_projection_origin": -30.0,
+            "longitude_of_central_meridian": 25.0,
+            "longitude_of_prime_meridian": 0.0,
+            "prime_meridian_name": "Greenwich",
+            "projected_crs_name": "Hartebeesthoek94 / ZAF BSU Albers 25E",
+            "reference_ellipsoid_name": "WGS 84",
+            "semi_major_axis": 6378137.0,
+            "semi_minor_axis": 6356752.314245179,
+            "spatial_ref": "PROJCRS[\"Hartebeesthoek94 / ZAF BSU Albers 25E\",BASEGEOGCRS[\"Hartebeesthoek94\",DATUM[\"Hartebeesthoek94\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4148]],CONVERSION[\"South Africa Basic Survey Unit Albers 25E\",METHOD[\"Albers Equal Area\",ID[\"EPSG\",9822]],PARAMETER[\"Latitude of false origin\",-30,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8821]],PARAMETER[\"Longitude of false origin\",25,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8822]],PARAMETER[\"Latitude of 1st standard parallel\",-22,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8823]],PARAMETER[\"Latitude of 2nd standard parallel\",-38,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8824]],PARAMETER[\"Easting at false origin\",1400000,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8826]],PARAMETER[\"Northing at false origin\",1300000,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8827]]],CS[Cartesian,2],AXIS[\"northing (N)\",north,ORDER[1],LENGTHUNIT[\"metre\",1]],AXIS[\"easting (E)\",east,ORDER[2],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Spatial analysis for the purposes of Natural Capital Accounting.\"],AREA[\"South Africa - mainland - onshore and offshore.\"],BBOX[-38.17,13.33,-22.13,36.54]],ID[\"EPSG\",9221]]",
+            "standard_parallel": [
+                -22.0,
+                -38.0
+            ]
+        },
+        "time/.zarray": {
+            "chunks": [],
+            "compressor": null,
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [],
+            "zarr_format": 2
+        },
+        "time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [],
+            "calendar": "proleptic_gregorian",
+            "units": "days since 2000-02-20 00:00:00"
+        },
+        "valid/.zarray": {
+            "chunks": [
+                178,
+                400
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1419,
+                1598
+            ],
+            "zarr_format": 2
+        },
+        "valid/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "coordinates": "time"
+        },
+        "x/.zarray": {
+            "chunks": [
+                1598
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1598
+            ],
+            "zarr_format": 2
+        },
+        "x/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x"
+            ],
+            "crs": "EPSG:9221",
+            "resolution": 1000.0,
+            "units": "metre"
+        },
+        "y/.zarray": {
+            "chunks": [
+                1419
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1419
+            ],
+            "zarr_format": 2
+        },
+        "y/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y"
+            ],
+            "crs": "EPSG:9221",
+            "resolution": -1000.0,
+            "units": "metre"
+        }
+    },
+    "zarr_consolidated_format": 1
+}
